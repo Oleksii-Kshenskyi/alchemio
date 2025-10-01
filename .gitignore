@@ -54,3 +54,6 @@ TestResult.xml
 nunit-*.xml
 
 .vs/
+
+# Temporary, until I know if I need text files under git or not
+*.txt
