@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36511.14 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "Alchemio.CLI", "Alchemio.CLI\Alchemio.CLI.fsproj", "{FEA845BD-DDD7-45EE-9D16-053CDDAF6970}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FEA845BD-DDD7-45EE-9D16-053CDDAF6970}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEA845BD-DDD7-45EE-9D16-053CDDAF6970}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEA845BD-DDD7-45EE-9D16-053CDDAF6970}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEA845BD-DDD7-45EE-9D16-053CDDAF6970}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {62BDF950-A827-4A39-BAC2-A289E0E2CAE5}
+	EndGlobalSection
+EndGlobal
