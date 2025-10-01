@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Alchemio.CLI": {
+      "commandName": "Project",
+      "workingDirectory": "$(SolutionDir)"
+    }
+  }
+}

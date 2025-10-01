@@ -1,5 +1,11 @@
-﻿// For more information see https://aka.ms/fsharp-console-apps
-open System
+﻿open System
 
-printfn "Alchemio.Welcome!"
-Console.ReadLine() |> ignore
+let rec repl () =
+    printf "<ALCH>>> "
+    match Console.ReadLine() with
+    | "exit" | "quit" | Null -> ()
+    | input ->
+        printfn "[Echo `%s`]" input
+        repl ()
+
+repl ()
