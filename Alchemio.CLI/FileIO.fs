@@ -1,4 +1,4 @@
-﻿module FileUtils
+﻿module Alchemio.FileIO
 
 open System.IO
 

@@ -6,9 +6,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="Commands.fs" />
-    <Compile Include="FileUtils.fs" />
-    <Compile Include="Program.fs" />
+    <Compile Include="FileIO.fs" />
+    <Compile Include="CLI.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Alchemio.Adapters\Alchemio.Adapters.fsproj" />
+    <ProjectReference Include="..\Alchemio.Core\Alchemio.Core.fsproj" />
   </ItemGroup>
 
 </Project>
